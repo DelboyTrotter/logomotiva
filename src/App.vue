@@ -1,32 +1,35 @@
 <template>
   <div id="app">
-    <h1>Welcome to Your Vue.js App</h1>
-    <TemplateDefault></TemplateDefault>
+    <A></A>
   </div>
 </template>
 
 <script>
-import TemplateDefault from '@/layouts/TemplateDefault';
+import A from '@/layouts/A';
 
 export default {
   name: 'App',
   components: {
-    TemplateDefault,
+    A,
   },
 };
 </script>
 
 <style lang="scss">
-html,
-body {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-#app {
-  font-family: Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  html, body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  #app {
+    font-family: 'Roboto', sans-serif;
+  }
 </style>
