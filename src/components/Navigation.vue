@@ -60,7 +60,7 @@ export default {
             background: red;
             position: absolute;
             left: -30px;
-            top: 6px
+            top: 9px;
           }
         }
       }

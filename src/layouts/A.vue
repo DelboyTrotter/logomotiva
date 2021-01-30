@@ -55,7 +55,6 @@ export default {
     background: #fff;
     border-radius: 20px;
     position: relative;
-    padding: 40px;
     margin-top: 45px;
   }
 }

@@ -21,7 +21,7 @@ export default {
     padding: 0;
   }
   html, body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     box-sizing: border-box;
   }
   *,
