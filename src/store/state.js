@@ -427,4 +427,31 @@ export default {
       ],
     },
   ],
+  userDetailsMenu: [
+    {
+      id: 0,
+      value: 'Sessions',
+      key: 'PlayerDetailsSessions',
+    },
+    {
+      id: 1,
+      value: 'Info',
+      key: 'PlayerDetailsInfo',
+    },
+    {
+      id: 2,
+      value: 'First review',
+      key: 'PlayerDetailsFirstReview',
+    },
+    {
+      id: 3,
+      value: 'Invoices',
+      key: 'PlayerDetailsInvoices',
+    },
+    {
+      id: 4,
+      value: 'Notes',
+      key: 'PlayerDetailsNotes',
+    },
+  ],
 };
